@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1>TravIndo</h1>
+      </div>
+      <section class="kiri">
+        <div class="account">
+          <img class="imglogo" src="image/IconLogin'.png" type="logo" />
+          <h1>Sign In</h1>
+          <div class="login-form">
+            <form action="login.php" method="post">
+              <div class="form-group">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="Email" required />
+                <hr />
+              </div>
+              <div class="form-group">
+                <label for="password"></label>
+                <input type="password" id="password" name="password" placeholder="Password" required />
+                <hr />
+              </div>
+              <div class="bawah-input">
+                <p><input type="checkbox" />Remember Me</p>
+                <p><a href="#">Forgot Password</a></p>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Sign In
+              </button>
+              <button type="submit" class="btn btn-primary">
+               <img src="image/Logo_google.png"> Sign In With Google
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="kanan">
+        <img src="image/Gambar_Login.png" type="image" />
+        <a href=""><button>Sign Up</button></a>
+      </section>
+    </div>
+  </body>
+</html>
