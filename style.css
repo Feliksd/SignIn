@@ -143,3 +143,52 @@
   background-color: blueviolet;
   transition: 0.5s;
 }
+@media screen and (max-width: 768px) {
+  .container {
+  background-size: contain;
+  }
+  .logo h1 {
+  font-size: 24px;
+  padding: 10px;
+  padding-left: 30px;
+  }
+  .kiri .account {
+  top: 10%;
+  left: 5%;
+  padding: 20px;
+  }
+  .kiri .account h1 {
+  font-size: 20px;
+  }
+  .kanan {
+  padding: 10px;
+  padding-right: 50px;
+  }
+  .kanan img {
+  width: 25%;
+  top: 10%;
+  right: 10%;
+  }
+  .kanan a button {
+  font-size: 11px;
+  padding: 5px 12px;
+  right: 15%;
+  top: 10%;
+  }
+  .login-form {
+  font-size: 10px;
+  }
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+  width: 200px;
+  font-size: 12px;
+  }
+  .login-form button[type="submit"] {
+  font-size: 10px;
+  padding: 8px;
+  }
+  .bawah-input{
+  flex-direction: column;
+  align-items: center;
+  }
+  }
